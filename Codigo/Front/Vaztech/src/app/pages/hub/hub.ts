@@ -58,6 +58,14 @@ export class HubComponent {
       },
     },
     {
+      label: 'Serviços',
+      icon: 'pi pi-wrench',
+      routerLink: 'servicos',
+      command: () => {
+        this.selectedItem = 'Serviços';
+      },
+    },
+    {
       label: 'Funcionários',
       icon: 'pi pi-briefcase',
       routerLink: 'funcionarios',

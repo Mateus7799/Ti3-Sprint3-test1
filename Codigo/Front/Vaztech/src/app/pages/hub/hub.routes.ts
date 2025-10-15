@@ -4,6 +4,7 @@ import { PessoasTabsComponent } from './pessoas-tabs/pessoas-tabs';
 import { EstoqueTabsComponent } from './estoque-tabs/estoque-tabs';
 import { VendaTabsComponent } from './venda-tabs/venda-tabs';
 import { FinanceiroTabsComponent } from './financeiro-tabs/financeiro-tabs';
+import { ServicosTabsComponent } from './servicos-tabs/servicos-tabs';
 
 export const HubRoutes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -15,4 +16,5 @@ export const HubRoutes: Routes = [
   { path: 'estoque', component: EstoqueTabsComponent },
   { path: 'vendas', component: VendaTabsComponent },
   { path: 'financeiro', component: FinanceiroTabsComponent },
+  { path: 'servicos', component: ServicosTabsComponent },
 ];
